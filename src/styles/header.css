@@ -25,7 +25,8 @@
 
 .nav-controls {
   display: flex;
-  gap: 0.5rem;
+  gap: 1.5rem;
+  margin-right: 1rem;
 }
 
 .nav-controls button {
@@ -74,9 +75,11 @@
 }
 
 @media (max-width: 600px) {
-  .site-header-inner { padding: 0 0.5rem; }
+  .site-header { height: auto;}
+  .site-header-inner { padding: 0 0.5rem; flex-direction: column; gap: 0.5rem}
   .site-logo { font-size: 1rem; }
   .nav-controls button { padding: 0.4rem 0.6rem; }
+  img {text-align: center;}
 }
 
 .site-logo {

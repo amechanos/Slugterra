@@ -16,7 +16,7 @@
 
 .slug-gallery { 
     padding: 2rem;
-    margin: 0;
+    margin: 0 auto;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -153,6 +153,9 @@
 }
 
 /* Small helper for better stacking on small screens */
+@media (max-width: 936px) {
+    .slug-grid { grid-template-columns: repeat(2, auto); gap: 0.75rem; }
+}
 @media (max-width: 600px) {
-    .slug-grid { grid-template-columns: 1fr; gap: 0.75rem; }
+    .slug-grid { grid-template-columns: auto; gap: 0.75rem; }
 }
