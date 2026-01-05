@@ -2,16 +2,21 @@ import { useState } from 'react'
 import SlugGallery from './components/SlugGallery'
 import Header from './components/header'
 import ReadingPage from './components/ReadingPage'
+import MapPage from './components/MapPage'
+import Home from './components/Home'
 import './App.css'
 
 function App() {
-  const [view, setView] = useState('gallery')
+  const [view, setView] = useState('home')
 
   return (
     <>
       <Header view={view} setView={setView} />
       <main>
-        {view === 'gallery' ? <SlugGallery /> : <ReadingPage />}
+        {view === 'home' && <Home setView={setView} />}
+        {view === 'gallery' && <SlugGallery />}
+        {view === 'reading' && <ReadingPage />}
+        {view === 'map' && <MapPage />}
       </main>
     </>
   )

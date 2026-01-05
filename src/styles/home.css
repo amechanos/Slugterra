@@ -1,0 +1,54 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    text-align: center;
+}
+
+.tabs {
+    text-align: center;
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+    width: 80%
+}
+
+.card > h1, h2, h3, p {
+    text-align: center;
+}
+
+.card { 
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin: auto 0;
+    padding: 1rem;
+    border: 1px solid rgba(240, 230, 220, 0.25);
+    border-radius: 8px;
+    background: linear-gradient(45deg, rgba(70, 65, 60, 0.18), rgba(65, 40, 40, 0.123));
+    box-shadow: 1px 3px 3px rgba(30,24,18,0.5);
+    transition: 0.2s all ease-in;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    border: 1px solid rgba(240, 230, 220, 0.5);
+    background: linear-gradient(60deg, rgba(70, 65, 60, 0.33), rgba(65, 40, 40, 0.25));
+    box-shadow: 1px 6px 6px rgba(30,24,18,0.6);
+}
+
+.card:focus {
+    outline: 3px solid var(--btn-active-bg, #ea9c50);
+    outline-offset: 2px;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 800px) {
+    .tabs {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "desert": {
+        "Region": "Drunken Desert",
+        "Capital": "Steamvale",
+        "Caverns": ["The Ducts", "Bomb Flats", "Vein Rocks", "Clinkton", "Tumblestone Cavern"],
+        "Population": ["Trolls", "Humanoids"],
+        "Description": "An almost dystopian like wasteland with miles of mostly nothing but sand, where towns adopt steampunk like architecture that seems to burrow deep underground."
+    },
+    "ridgelands":{
+        "Region": "Western Ridgelands",
+        "Capital": "Askent Town",
+        "Caverns": ["Funnelweb Cavern", "Golden Mines", "Crux Canyon", "Midnight Cavern"],
+        "Population": ["Trolls", "Humanoids", "Moles"],
+        "Description": "A windy and chaotic region famous for its mountains and highlands with hundreds of hidden and undiscovered caverns layered at the bottom of Crux Canyon.    "
+    },
+    "wetlands": {
+        "Region": "Abyssal Wetlands",
+        "Capital": "Sungai City",
+        "Caverns": ["Sunken Swamp Cavern", "Silent Valley Cavern", "The Channels"],
+        "Population": ["Amphibianoids", "Humanoids"],
+        "Description": "A cold and wet region in the Northern parts of the Southern Caverns where colossal lakes sit, rumored to connect to the dark Deep Caverns."
+    },
+    "jungle": {
+        "Region": "Temporal Jungle",
+        "Capital": "Lahos Town",
+        "Caverns": ["Crysilis Cavern", "Million Mirror Cavern"],
+        "Population": ["Humanoids"],
+        "Description": "A lushous and vibrant region filled with exotic plants and wildlife, where time seems to move differently and caverns are covered in reflective crystals."
+    },
+    "icelands": {
+        "Region": "Primordal Icelands",
+        "Capital": "Frostholm",
+        "Caverns": ["Ironclad Cavern", "The Outpost", "Obsidian Ridge Cavern"],
+        "Population": ["Humanoids", "Trolls"],
+        "Description": "A freezing cold region in the far South, covered in ice and snow where caverns are made of solid rock and ice, inhabited by hardy folk who thrive in the extreme conditions."
+    },
+    "wall": {
+        "Region": "Boundless Barrier Wall",
+        "Capital": "N/A",
+        "Caverns": ["N/A"],
+        "Population": ["N/A"],
+        "Description": "A massive and towering structure that separates all known regions, its origins and purpose remain a mystery to all. No one has ever crossed it and returned to tell the tale. Some even worship it as a deity."
+    }
+}

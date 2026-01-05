@@ -1,0 +1,110 @@
+#desert {fill: #ffefac; }
+#icelands {fill: #a5f3fc; }
+#jungle {fill: #4ade80; }
+#ridgelands {fill: #fb923c;}
+#wetlands {fill: #60a5fa;}
+#wall {
+    fill: none;
+    stroke: #000;
+    stroke-dasharray: 18 12;
+    stroke-miterlimit: 10;
+    stroke-width: 6px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+.mapContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 24px;
+    padding: 20px;
+}
+
+/* Make the main map take remaining space and keep the info panel fixed width */
+.main-map { flex: 1 1 auto; max-width: 100%; height: auto; display: block }
+.map-info { width: 320px; flex: 0 0 320px }
+
+/* Themed info panel */
+.map-info {
+  background: linear-gradient(180deg, #46433c6b, #322e2338);
+  border: 1px solid rgba(240, 230, 225, 0.285);
+  padding: 18px;
+  color: rgb(240, 230, 225);
+  border-radius: 21px;
+  box-shadow: 0 10px 24px rgba(30,24,18,0.06);
+}
+
+.map-info > h1, h2, h3 {
+    text-align: left;
+}
+
+.map-info.placeholder { opacity: 0.95 }
+
+.map-info h2 { margin: 0 0 6px 0; font-size: 1.2rem;}
+.map-info h3 { margin: 12px 0 6px 0; font-size: 0.95rem;}
+.map-info .muted {color: rgba(240, 230, 225, 0.73); font-size: 0.95rem; margin-bottom: 8px }
+.map-info .description {line-height: 1.4 }
+
+/* Cavern list as rounded badges */
+.cavernList { 
+    margin: 6px 0 0 0; 
+    padding: 0; 
+    list-style: none; 
+    display:flex; 
+    gap:8px; 
+    flex-wrap:wrap 
+}
+
+.cavernList .cavern { 
+    background: beige; 
+    border:1px solid rgba(87, 61, 61, 0.518); 
+    padding:6px 8px; 
+    border-radius:999px; 
+    font-size:0.9rem; 
+    color: rgb(33, 28, 23) 
+}
+
+/* Population badges */
+.populationList { 
+    display:flex; 
+    gap:8px; 
+    flex-wrap:wrap; 
+    margin-top:6px 
+}
+
+.populationList .population { 
+    background: var(--btn-active-bg, #ea9c50); 
+    color: #fff; 
+    padding:6px 10px; 
+    border-radius:999px; 
+    font-size:0.85rem 
+}
+
+/* Small responsive tweaks */
+@media (max-width: 1000px) {
+  .mapContainer { flex-direction: column; align-items:center }
+  .map-info { width: 80%; flex: 0 0 auto }
+}
+
+.map-image {
+    position: absolute;
+    height: auto;
+}
+
+/* Global interactivity */
+.region-path {
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.region-path:hover {
+  filter:brightness(0.8);
+}
+
+.region-path:active {
+  filter: brightness(0.6);
+}
+
