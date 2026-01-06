@@ -57,7 +57,7 @@
 
 .chapter h2 { margin-top: 0; }
 
-.chapter-body { margin-top: 0.5rem; line-height: 1.6; }
+.chapter-body { margin-top: 0.5rem; line-height: 1.6; text-align: left;}
 
 .chapter-controls { display: flex; gap: 0.5rem; margin-top: 1rem; }
 

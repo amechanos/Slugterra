@@ -114,7 +114,7 @@
 }
 
 .slug-card { 
-    border: 1px solid #caa130; 
+    border: 1px solid rgba(240, 230, 220, 0.25);
     cursor: pointer;
     border-radius: 12px; 
     padding: 0; 
@@ -124,8 +124,8 @@
     align-items: center; 
     justify-content: center; 
     overflow: hidden; 
-    background: #4f3f2351; 
-    box-shadow: 0 1px 2px rgba(0,0,0,0.03); 
+    background: linear-gradient(45deg, rgba(70, 65, 60, 0.18), rgba(65, 40, 40, 0.123));
+    box-shadow: 1px 3px 3px rgba(30,24,18,0.5);
     transition: all 0.3s cubic-bezier(0.215, 0.610, 0.355, 1);
 }
 
@@ -139,10 +139,16 @@
 }
 
 .slug-card:hover { 
-    box-shadow: 0 8px 18px rgba(0,0,0,0.12);
-    transform: translateY(-6px) scale(1.01);
-    border: 2px solid #e3b844;
-    background: #6d59353c; 
+    transform: translateY(-2px);
+    border: 1px solid rgba(240, 230, 220, 0.5);
+    background: linear-gradient(60deg, rgba(70, 65, 60, 0.33), rgba(65, 40, 40, 0.25));
+    box-shadow: 1px 6px 6px rgba(30,24,18,0.6);
+}
+
+.slug-card:focus {
+    outline: 3px solid var(--btn-active-bg, #ea9c50);
+    outline-offset: 2px;
+    transform: translateY(-2px);
 }
 
 /* Respect user preference for reduced motion */

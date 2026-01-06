@@ -278,5 +278,12 @@
     "Element": "Chaos",
     "Ghoul Form": "Flapper",
     "Description": "Useful slug"
+  },
+  {
+    "Name": "Kinderling",
+    "Original?": "No",
+    "Element": "Chaos",
+    "Ghoul Form": "Witherling",
+    "Description": "Evaporation Slug"
   }
 ]

@@ -12,11 +12,22 @@ type Slug = {
 }
 
 export default function SlugGallery() {
-  const [order, setOrder] = useState<'none' | 'asc' | 'desc'>('none')
+  const [order, setOrder] = useState<'none' | 'asc' | 'desc' | 'element'>('none')
   const slugs = slugData as Slug[]
 
   const sorted = useMemo(() => {
     if (order === 'none') return slugs
+
+    const data = [...slugs]
+    if (order === 'element') {
+      return data.sort((a,b) => {
+        const elementCompare = a.Element.localeCompare(b.Element);
+        if (elementCompare !== 0) return elementCompare
+        return a.Name.localeCompare(b.Name)
+
+      })
+    }
+
     const factor = order === 'asc' ? 1 : -1
     return [...slugs].sort((a, b) => factor * a.Name.localeCompare(b.Name, undefined, { sensitivity: 'base' }))
   }, [order, slugs])
@@ -26,6 +37,7 @@ export default function SlugGallery() {
       <div className="gallery-header">
         <h2>Slug Gallery of the Southern Caverns</h2>
         <div className="gallery-controls">
+          <button onClick={() => setOrder('element')} aria-pressed={order === 'element'}>Sort by Element</button>
           <button onClick={() => setOrder('asc')} aria-pressed={order === 'asc'}>Sort A→Z</button>
           <button onClick={() => setOrder('desc')} aria-pressed={order === 'desc'}>Sort Z→A</button>
           <button onClick={() => setOrder('none')} aria-pressed={order === 'none'}>Original</button>
