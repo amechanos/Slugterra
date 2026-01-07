@@ -6,7 +6,7 @@ export default function Home({ setView }: { setView: (v: 'home'|'characters'|'re
     <section className="home">
         <div className="welcome">
           <h1>Welcome to the Southern Caverns</h1>
-          <p className="lead">Explore jhxu's Slugterra: Wrath of the Outback</p>
+          <p className="lead" style={{width: "60%"}}>Explore jhxu's Slugterra: Wrath of the Outback. This is a fanmade project, where rightful owners of Slugterra are Wildbrain Ltd. and DHX Media/Nerdcorps</p>
         </div>
 
         <div className="tabs">

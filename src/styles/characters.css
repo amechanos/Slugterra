@@ -55,13 +55,41 @@
 }
 
 .MC-card > img {
-    width: 25%;
+    width: 20%;
+    aspect-ratio: 3/4;
+    filter: grayscale();
+    transition: 0.8s all cubic-bezier(.2,.5,0,1);
 }
 
-@media (max-width: 950px) {
+.MC-card > img:hover {
+    transform: scale(1.05);
+    filter: none;
+    animation: float 3s infinite alternate-reverse;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+        transform: scale(1.05)
+    }
+    100% {
+        transform: translateY(-5px);
+        transform: scale(1.08)
+    }
+}
+
+@media (max-width: 980px) {
     .characterGrid {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .MC-card {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .MC-card > img {
+    width: 30%;
     }
 }

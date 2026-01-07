@@ -6,12 +6,13 @@ type Profile = {
     "age": number,
     "slugs": string[],
     "description": string
+    "image": string
 }
 
-export default function ProfileCard({ name, age, description, slugs}: Profile) {
+export default function ProfileCard({ name, age, description, slugs, image}: Profile) {
   return (
     <article className="MC-card">
-        <img src="https://thumbs.dreamstime.com/b/default-placeholder-businessman-half-length-portr-default-placeholder-businessman-half-length-portrait-photo-avatar-man-gray-color-113622420.jpg"/>
+        <img src={image}/>
         <div className="info">
             <h3 className="MC-name">{name} / Age: {age}</h3>
             <div className="arsenal">{slugs.map((t) => <span key={t} className="slug">{t}</span>)}</div>
