@@ -4,286 +4,300 @@
     "Original?": "No",
     "Element": "Earth",
     "Ghoul Form": "Omithistle",
-    "Description": "Gem shooting slug"
+    "Description": "A powerful slug that can shoot gems from its body, attacking with precision in all directions."
   },
   {
     "Name": "Refracent",
     "Original?": "No",
     "Element": "Earth",
     "Ghoul Form": "Necracent",
-    "Description": "Copycat slug"
+    "Description": "A slug that can copy the abilities of other slugs by reflecting their powers off its crystalline body."
   },
   {
     "Name": "Makobreaker",
-    "Original?": "No",
+    "Original?": "Yes",
     "Element": "Water",
     "Ghoul Form": "Megabreaker",
-    "Description": "Charging slug"
+    "Description": "A shark themed slug that can shoot their teeth like bullets from its mouth."
   },
   {
     "Name": "Tenasher",
-    "Original?": "No",
+    "Original?": "Yes",
     "Element": "Water",
     "Ghoul Form": "Menasher",
-    "Description": "Alligator slug"
+    "Description": "An crocodile slug that has a colossal mouth, able to chomp through almost anything."
   },
   {
     "Name": "Spikeshade",
-    "Original?": "No",
+    "Original?": "Yes",
     "Element": "Earth",
     "Ghoul Form": "Strikeshade",
-    "Description": "Spike shooting slug"
+    "Description": "A porcupine slug that can shoot poisonous quills that linger in the air for hours."
   },
   {
     "Name": "Chlorobite",
     "Original?": "No",
     "Element": "Nature",
     "Ghoul Form": "Chlorofight",
-    "Description": "Chomping slug"
+    "Description": "A plant slug that can shoot razor sharp leaves from its body with deadly accuracy."
   },
   {
     "Name": "Desertooth",
     "Original?": "No",
     "Element": "Water",
     "Ghoul Form": "Savortooth",
-    "Description": "Water jet slug"
+    "Description": "A slug that extracts water from the ground with its tail and expels it through its teeth at high pressure."
   },
   {
     "Name": "Mantarid",
     "Original?": "No",
     "Element": "Earth",
     "Ghoul Form": "Manteraid",
-    "Description": "Sand wave slug"
+    "Description": "A manta ray type slug that can phase through solid objects, such as the ground and walls."
   },
   {
     "Name": "Gyrophyll",
     "Original?": "No",
     "Element": "Nature",
     "Ghoul Form": "Pyrokill",
-    "Description": "Spin slug"
+    "Description": "A spinning slug that can charge up and release its speed or wind from its body."
   },
   {
     "Name": "Chasm",
     "Original?": "No",
     "Element": "Chaos",
     "Ghoul Form": "Spasm",
-    "Description": "Teleportation slug"
+    "Description": "A special slug capable of teleporting victims it grasps to random locations."
   },
   {
     "Name": "Taranticle",
     "Original?": "No",
     "Element": "Nature",
     "Ghoul Form": "Taransickle",
-    "Description": "8 legged slug"
+    "Description": "A tarantula slug able to extend and use its powerful 8 legs."
   },
   {
     "Name": "Mandimesh",
     "Original?": "No",
     "Element": "Nature",
     "Ghoul Form": "Mandisteal",
-    "Description": "Big jaw slug"
+    "Description": "An enormous slug capable of ensnaring foes in its flexible body mesh."
   },
   {
-    "Name": "Ramstone",
+    "Name": "Rammstone",
     "Original?": "Yes",
     "Element": "Earth",
     "Ghoul Form": "Grimstone",
-    "Description": "Strong hitting slug"
+    "Description": "A hard hitting slug capable of ramming, smashing through various obstacles."
   },
   {
     "Name": "Armashelt",
     "Original?": "Yes",
     "Element": "Nature",
     "Ghoul Form": "Harmashelt",
-    "Description": "Strong hitting slug"
+    "Description": "A heavy-duty slug with thick armor that can deal a lot of damage,"
   },
   {
     "Name": "Grenuke",
     "Original?": "Yes",
     "Element": "Earth",
     "Ghoul Form": "Greneater",
-    "Description": "Explosive slug"
+    "Description": "A slug capable of sticking to any surface and explode after a short delay."
   },
   {
     "Name": "Hoprock",
     "Original?": "Yes",
     "Element": "Earth",
     "Ghoul Form": "Hopjack",
-    "Description": "Explosive slug"
+    "Description": "A explosive slug that serves as primary explopsive ammunition for most Slugslingers."
   },
   {
     "Name": "Crystalyd",
     "Original?": "Yes",
     "Element": "Earth",
     "Ghoul Form": "Cryscada",
-    "Description": "Drilling slug"
+    "Description": "A tunneling slug that can dig through rock and earth, useful for various situations."
   },
   {
     "Name": "Dirt Urchin",
     "Original?": "Yes",
     "Element": "Earth",
     "Ghoul Form": "Dark Urchin",
-    "Description": "Thorn shooting slug"
+    "Description": "A slug that can fling their spikes at an opponent or burrow towards them before striking."
   },
   {
     "Name": "Sand Angler",
     "Original?": "Yes",
     "Element": "Earth",
     "Ghoul Form": "Sand Mangler",
-    "Description": "Sand slug"
+    "Description": "An armored burrowing slug that can surround their target with quicksand."
   },
   {
     "Name": "Speedstinger",
     "Original?": "Yes",
     "Element": "Earth",
     "Ghoul Form": "Doomspiker",
-    "Description": "Fast slug"
+    "Description": "An extremely fast slug that are mostly used for trick shots, complicated moves and quick attacks."
   },
   {
     "Name": "Glowbyss",
     "Original?": "Yes",
     "Element": "Water",
     "Ghoul Form": "Gloombyss",
-    "Description": "Bright light slug"
+    "Description": "A bioluminescent slug able to blind and stun an opponent with a flash of light."
   },
   {
     "Name": "Tormato",
     "Original?": "Yes",
     "Element": "Air",
     "Ghoul Form": "Tempesto",
-    "Description": "Tornado slug"
+    "Description": "A slug that can create gale-force winds or rampaging tornadoes to blow away their target."
   },
   {
     "Name": "Firenzar",
     "Original?": "Yes",
     "Element": "Fire",
     "Ghoul Form": "Sirenzar",
-    "Description": "Fire ring slug"
+    "Description": "A dragon like slug able to unleash powerful spirals of fire from its flaps."
   },
   {
     "Name": "Forgesmelter",
     "Original?": "Yes",
     "Element": "Fire",
     "Ghoul Form": "Gorgesmelter",
-    "Description": "Forge slug"
+    "Description": "A slug that can melt or solder metal, and produce small molten metal explosions."
   },
   {
     "Name": "Lavalynx",
     "Original?": "Yes",
     "Element": "Fire",
     "Ghoul Form": "Lavamander",
-    "Description": "Lava slug"
+    "Description": "A terrifying slug that holds the same power as a volcano, spewing and erupting lava."
   },
   {
     "Name": "Flaringo",
     "Original?": "Yes",
     "Element": "Fire",
     "Ghoul Form": "Pyringo",
-    "Description": "Pure fire slug"
+    "Description": "The most basic fire type slug, able to shoot small fireballs and sparks towards a target."
   },
   {
     "Name": "Arachnet",
     "Original?": "Yes",
     "Element": "Air",
     "Ghoul Form": "Attacknet",
-    "Description": "Spider slug"
+    "Description": "A multipurpose spider slug able to use its webs for various functions."
   },
   {
     "Name": "Slicksilver",
     "Original?": "Yes",
     "Element": "Earth",
     "Ghoul Form": "Quicksalvo",
-    "Description": "Magnet slug"
+    "Description": "A slug that can transform into a giant living ball of magnetized metal, creating a powerful magnetic field."
   },
   {
     "Name": "Aquabeek",
     "Original?": "Yes",
     "Element": "Water",
     "Ghoul Form": "Aquafreak",
-    "Description": "Water slug"
+    "Description": "A common water slug able to shoot fast, high-pressure streams of water from its body."
   },
   {
     "Name": "Hexlet",
     "Original?": "Yes",
     "Element": "Chaos",
     "Ghoul Form": "Vexlet",
-    "Description": "Bad luck slug"
+    "Description": "A dangerous slug that can bring bad luck upon its target."
   },
   {
     "Name": "Gazzer",
     "Original?": "Yes",
     "Element": "Air",
     "Ghoul Form": "Spazzer",
-    "Description": "Toxic gas slug"
+    "Description": "A gaseous slug that can release clouds of gas that can disorient opponents."
   },
   {
     "Name": "Geoshard",
     "Original?": "Yes",
     "Element": "Earth",
     "Ghoul Form": "Shadowshard",
-    "Description": "Crystalisation slug"
+    "Description": "An extremely dangerous slug that can create a projectile that crystallizes the target on contact."
   },
   {
     "Name": "Hoverbug",
     "Original?": "Yes",
     "Element": "Air",
     "Ghoul Form": "Hoverblade",
-    "Description": "Flying slug"
+    "Description": "A simple and fast flying slug that can also be used to carry objects and people."
   },
   {
     "Name": "Diggrix",
     "Original?": "Yes",
     "Element": "Earth",
     "Ghoul Form": "Terrarix",
-    "Description": "Digging slug"
+    "Description": "A defensive slug used to quickly dig trenches or escape routes in the ground."
   },
   {
     "Name": "Thresher",
     "Original?": "Yes",
     "Element": "Earth",
     "Ghoul Form": "Thrasher",
-    "Description": "Sharp Blade slug"
+    "Description": "A strong, multipurpose slug with an insanely sharp spine/tail that can cut through almost anything."
   },
   {
     "Name": "Negashade",
     "Original?": "Yes",
     "Element": "Chaos",
     "Ghoul Form": "Negablade",
-    "Description": "Darkness slug"
+    "Description": "A psychic slug known for its darkness, creating illusions and manipulating shadows."
   },
   {
     "Name": "Midas",
     "Original?": "No",
     "Element": "Chaos",
     "Ghoul Form": "Sadim",
-    "Description": "Golden slug"
+    "Description": "A golden slug that can enhance certain attributes of other slugs or objects it comes into contact with."
   },
   {
     "Name": "Frostcrawler",
     "Original?": "Yes",
     "Element": "Ice",
     "Ghoul Form": "Frostfang",
-    "Description": "Ice slug"
+    "Description": "A common ice slug that can freeze targets with its chilly breath."
   },
   {
     "Name": "Slyren",
     "Original?": "Yes",
     "Element": "Ice",
     "Ghoul Form": "Sirench",
-    "Description": "Sleep song slug"
+    "Description": "A hypnotic slug that can lull or blast targets with their screeching song."
   },
   {
     "Name": "Flopper",
     "Original?": "Yes",
     "Element": "Chaos",
     "Ghoul Form": "Flapper",
-    "Description": "Useful slug"
+    "Description": "An underlooked slug asit lacks any ability, making it almost useless."
   },
   {
     "Name": "Kinderling",
     "Original?": "No",
     "Element": "Chaos",
     "Ghoul Form": "Witherling",
-    "Description": "Evaporation Slug"
+    "Description": "A murderous slug that can evaporate liquids in seconds upon contact."
+  },
+  {
+    "Name": "Mesagator",
+    "Original?": "No",
+    "Element": "Water",
+    "Ghoul Form": "Megagator",
+    "Description": "A slug similar to a Makobreaker, with further abilities to turn its body and projectiles invisible."
+  },
+  {
+    "Name": "Fungaroo",
+    "Original?": "No",
+    "Element": "Earth",
+    "Ghoul Form": "Stunaroo",
+    "Description": "A kangaroo like slug, secondary to a Speedstinger, able to ricochet and bounce faster but is rarer."
   }
 ]

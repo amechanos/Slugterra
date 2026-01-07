@@ -3,8 +3,9 @@
   width: 100%;
   height: auto;
   padding: 1rem 0.5rem;
-  background: rgba(0,0,0,0.06);
-  box-shadow: 0 2px 0 rgba(0,0,0,0.06);
+  background: rgb(32, 23, 23);
+  box-shadow: 0 2px 0 rgb(0, 0, 0);
+  position: sticky;
 }
 
 .site-header-inner {

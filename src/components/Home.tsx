@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/home.css'
 
-export default function Home({ setView }: { setView: (v: 'home'|'reading'|'gallery'|'map') => void }) {
+export default function Home({ setView }: { setView: (v: 'home'|'characters'|'reading'|'gallery'|'map') => void }) {
   return (
     <section className="home">
         <div className="welcome">
@@ -20,6 +20,18 @@ export default function Home({ setView }: { setView: (v: 'home'|'reading'|'galle
           >
             <h3>Read</h3>
             <p>Dive into the latest chapter.</p>
+          </div>
+
+          <div
+            className="card"
+            role="button"
+            tabIndex={0}
+            onClick={() => setView('characters')}
+            onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') setView('characters') }}
+            aria-label="Go to characters"
+          >
+            <h3>Characters</h3>
+            <p>Meet the Watchers.</p>
           </div>
 
           <div

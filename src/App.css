@@ -3,6 +3,12 @@ html {
   width: 100%;
 }
 
+header {
+  z-index: 100;
+  top: 0;
+  position: absolute;
+}
+
 body {
   min-height: 100vh;
   height: auto;
