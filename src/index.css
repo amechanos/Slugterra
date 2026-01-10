@@ -2,6 +2,7 @@
     font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
     color-scheme: light dark;
     color: rgba(255, 255, 255, 0.87);
+    overflow-x: hidden;
     background-color: #242424;
 
     --size: 32ch;

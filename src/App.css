@@ -1,6 +1,8 @@
 html {
   height: auto;
   width: 100%;
+  overflow-x: hidden;
+
 }
 
 header {
@@ -10,6 +12,7 @@ header {
 }
 
 body {
+  overflow-x: hidden;
   min-height: 100vh;
   height: auto;
   width: 100%;
