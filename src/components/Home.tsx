@@ -58,6 +58,7 @@ export default function Home({ setView }: { setView: (v: 'home'|'characters'|'re
             <p>Meet the slugs and see profiles.</p>
           </div>
         </div>
+        <br></br><br></br><br></br>
     </section>
   )
 }

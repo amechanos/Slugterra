@@ -1,7 +1,5 @@
 footer {
   width: 100%;
-  position: absolute;
-  bottom: 0;
   padding: 2rem 0;
   background: linear-gradient(180deg, rgba(5,4,7,0.95), rgba(10,9,14,1));
   color: #e6e6eb;
