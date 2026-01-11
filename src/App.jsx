@@ -5,6 +5,7 @@ import ReadingPage from './components/ReadingPage'
 import MapPage from './components/MapPage'
 import CharacterList from './components/profilesCharacter'
 import Home from './components/Home'
+import Footer from './components/footer'
 import './App.css'
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         {view === 'map' && <MapPage />}
         {view === 'characters' && <CharacterList />}
       </main>
+      <Footer/>
     </>
   )
 }

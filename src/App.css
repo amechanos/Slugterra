@@ -2,13 +2,10 @@ html {
   height: auto;
   width: 100%;
   overflow-x: hidden;
-
 }
 
 header {
   z-index: 100;
-  top: 0;
-  position: absolute;
 }
 
 body {
@@ -17,7 +14,7 @@ body {
   height: auto;
   width: 100%;
   margin: 0;
-  background: linear-gradient(45deg, #302a22 10%, #28211c 40%, #23211e 60%, #31281c 90%);
+  background: linear-gradient(45deg, #302a22 10%, #2b221c 40%, #242321 60%, #2e2110 90%);
   background-size: 400% 400%;
   animation: desertGradient 15s ease infinite;
 }
