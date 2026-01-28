@@ -18,14 +18,15 @@ h1, h2, h3 {
 .mapContainer {
     display: flex;
     align-items: flex-start;
-    justify-content: center;
-    gap: 24px;
-    padding: 20px;
+    justify-content: top;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
 }
 
 /* Make the main map take remaining space and keep the info panel fixed width */
-.main-map { flex: 1 1 auto; max-width: 100%; height: auto; display: block }
-.map-info { width: 320px; flex: 0 0 320px }
+.main-map { flex: 1 1 auto; height: 60vh; width: auto; display: block }
+.map-info { width: 320px; flex: 0 0 320px; height: 60vh; }
 
 /* Themed info panel */
 .map-info {
@@ -86,7 +87,7 @@ h1, h2, h3 {
 /* Small responsive tweaks */
 @media (max-width: 1000px) {
   .mapContainer { flex-direction: column; align-items:center }
-  .map-info { width: 80%; flex: 0 0 auto }
+  .map-info { width: 80%; flex: 0 0 auto; height: auto; }
 }
 
 .map-image {
