@@ -6,9 +6,9 @@ export default function Home({ setView }: { setView: (v: 'home'|'characters'|'re
     <section className="home">
         <div className="welcome">
           <h1>Welcome to the Southern Caverns</h1>
-          <p className="lead" style={{width: "60%"}}>Explore jhxu's Slugterra: Wrath of the Outback. </p>
-          <p style={{width: "40%"}}> Iris takes her father's role as the Watcher in Slugterra's Southern Caverns, watching the sacred Boundless Barrier Wall that separates the Drunken Desert and the rest of the Southern Caverns. What's beyond the wall? Nobody knows. Why is it there? Nobody knows. Will she rebel and discover the truth? Nobody knows. </p> 
-          <p style={{opacity: "0.5", width: "40%"}}> This is a fanmade project, where rightful owners of Slugterra are Wildbrain Ltd. and DHX Media/Nerdcorps</p>
+          <p className="lead">Explore jhxu's Slugterra: Wrath of the Outback. </p>
+          <p> Iris takes her father's role as the Watcher in Slugterra's Southern Caverns, watching the sacred Boundless Barrier Wall that separates the Drunken Desert and the rest of the Southern Caverns. What's beyond the wall? Nobody knows. Why is it there? Nobody knows. Will she rebel and discover the truth? Nobody knows. </p> 
+          <p style={{opacity: "0.5"}}> This is a fanmade project, where rightful owners of Slugterra are Wildbrain Ltd. and DHX Media/Nerdcorps</p>
         </div>
 
         <div className="tabs">

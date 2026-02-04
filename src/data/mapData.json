@@ -9,7 +9,7 @@
     "ridgelands":{
         "Region": "Western Ridgelands",
         "Capital": "Askent Town",
-        "Caverns": ["Funnelweb Cavern", "Golden Mines", "Crux Canyon", "Midnight Cavern"],
+        "Caverns": ["Funnelweb Cavern", "Golden Mines", "Crux Canyon", "Midnight Cavern", "The Gariwerd Layer"],
         "Population": ["Trolls", "Humanoids", "Moles"],
         "Description": "A windy and chaotic region famous for its mountains and highlands with hundreds of hidden and undiscovered caverns layered at the bottom of Crux Canyon.    "
     },
@@ -23,7 +23,7 @@
     "jungle": {
         "Region": "Temporal Jungle",
         "Capital": "Lahos Town",
-        "Caverns": ["Crysilis Cavern", "Million Mirror Cavern"],
+        "Caverns": ["Crysilis Cavern", "Million Mirror Cavern", "Temple of the Lawa"],
         "Population": ["Humanoids"],
         "Description": "A lushous and vibrant region filled with exotic plants and wildlife, where time seems to move differently and caverns are covered in reflective crystals."
     },

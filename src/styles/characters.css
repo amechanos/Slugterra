@@ -78,6 +78,10 @@
     }
 }
 
+.index-dots {
+    margin-bottom: 2rem;
+}
+
 .characterStack {
     width: 90%;
     height: 75%;
@@ -107,13 +111,40 @@
 
     .MC-card > img {
         width: 70%;
-        aspect-ratio: 1 / 1;
         object-fit: cover;
-        margin-bottom: 1.5rem;
     }
 
     .MC-card .character-info {
         text-align: center;
         width: 100%;
+    }
+
+    /* Mobile index dots */
+    .index-dots {
+        display: flex;
+        gap: 8px;
+        justify-content: center;
+        margin-top: 12px;
+    }
+
+    .index-dots .dot {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: rgba(200,200,200,0.9);
+        border: none;
+        padding: 0;
+        cursor: pointer;
+        transition: transform 0.15s ease, background 0.15s ease;
+    }
+
+    .index-dots .dot.active {
+        background: rgba(40, 40, 40, 0.95);
+        transform: scale(1.15);
+    }
+
+    .index-dots .dot:focus {
+        outline: 2px solid #aaa;
+        outline-offset: 2px;
     }
 }

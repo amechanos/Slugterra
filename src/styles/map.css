@@ -24,11 +24,15 @@ h1, h2, h3 {
     padding: 2rem;
 }
 
-/* Make the main map take remaining space and keep the info panel fixed width */
-.main-map { flex: 1 1 auto; height: 60vh; width: auto; display: block }
+.main-map {
+    flex: 1 1 auto;
+    height: auto;
+    width: 100%;
+    display: block;
+    overflow: auto;
+}
 .map-info { width: 320px; flex: 0 0 320px; height: 60vh; }
 
-/* Themed info panel */
 .map-info {
   background: linear-gradient(180deg, #46433c6b, #322e2338);
   border: 1px solid rgba(240, 230, 225, 0.285);

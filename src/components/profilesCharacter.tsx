@@ -32,14 +32,9 @@ export default function CharacterList() {
     const minSwipeDistance = 50;
     const p = characters[index];
 
-    // Navigation Helper
+    // Navigation Helper (wraps around when reaching ends)
     const handleMove = (direction: number) => {
-        setIndex((prev) => {
-            const nextIndex = prev + direction;
-            if (nextIndex < 0) return 0;
-            if (nextIndex >= characters.length) return characters.length - 1;
-            return nextIndex;
-        });
+        setIndex((prev) => (prev + direction + characters.length) % characters.length);
     };
 
     const onTouchStart = (e: TouchEvent) => {
@@ -52,7 +47,7 @@ export default function CharacterList() {
     };
 
     const onTouchEnd = () => {
-        if (!touchStart || !touchEnd) return;
+        if (touchStart === null || touchEnd === null) return;
 
         const distance = touchStart - touchEnd;
         const isLeftSwipe = distance > minSwipeDistance;
@@ -63,7 +58,11 @@ export default function CharacterList() {
         } else if (isRightSwipe) {
             handleMove(-1);
         }
-    };
+
+        // reset touch positions
+        setTouchStart(null);
+        setTouchEnd(null);
+    }; 
 
     return (
         <section className="characters">
@@ -87,7 +86,17 @@ export default function CharacterList() {
                             image={new URL(`../assets/${p.image}`, import.meta.url).href} 
                         />
                     </div>
-                    <p className="index-indicator">{index + 1} / {characters.length}</p>
+                    <div className="index-dots" role="tablist" aria-label="Character pages">
+                        {characters.map((_, i) => (
+                            <button
+                                key={i}
+                                className={`dot ${i === index ? 'active' : ''}`}
+                                onClick={() => setIndex(i)}
+                                aria-label={`Go to ${i + 1}`}
+                                aria-current={i === index}
+                            ></button>
+                        ))}
+                    </div>
                 </div>
             ) : (
                 <div className="characterGrid">
