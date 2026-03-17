@@ -21,11 +21,11 @@ export const characters = [
         image: "Ariane.svg"
     },
     {
-        name: "Scarlet Yvole",
-        age: 18,
+        name: "Yonas Haliyan",
+        age: 19,
         slugs: ["Frostcrawler", "Armashelt", "Crystalyd"],
-        description: "Scarlet is a fierce and independent slug slinger from the Primordal Icelands. She has a Frostcrawler named Frosty and is known for her strategic mind and combat skills in the harsh climate.",
-        image: "Scarlet.svg"
+        description: "Yonas as one of the older members is a boy with heightened endurance alongside a strengthened mind trained with disipline. Patient and precise, Yonas is chillingly dangerous with his Frostcrawler Sherbet.",
+        image: "Yonas.svg"
     },
     {
         name: "Salem Kahue",
