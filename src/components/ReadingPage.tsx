@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState, useRef } from 'react'
 import { marked } from 'marked'
 import '../styles/reading-page.css'
 
@@ -13,17 +13,41 @@ function parseMdModules(mods: Record<string, string>) {
     const title = titleMatch ? titleMatch[1].trim() : filename.replace(/[-_]/g, ' ')
     const html = marked.parse(raw)
     return { id: filename, title, html }
-  }).sort((a, b) => a.id.localeCompare(b.id, undefined, { numeric: true }))
+  }).sort((a, b) => {
+    // Prologue comes first
+    if (a.id === 'Prologue') return -1
+    if (b.id === 'Prologue') return 1
+    // Then sort chapters numerically
+    return a.id.localeCompare(b.id, undefined, { numeric: true })
+  })
 }
 
 export default function ReadingPage() {
   const [toc, setToc] = useState(() => parseMdModules(mdModules))
   const [current, setCurrent] = useState(toc[0] ?? null)
+  const articleRef = useRef<HTMLArticleElement>(null)
+
+  // Function to scroll to the top of the article
+  const scrollToTop = () => {
+    
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    console.log('Scrolled window to top');
+
+  }
+
+  // Automatically scroll to top whenever the 'current' chapter changes
+  useEffect(() => {
+    scrollToTop()
+  }, [current])
+
+  const handleNavigation = (chapter: any) => {
+    setCurrent(chapter)
+  }
 
   useEffect(() => {
     // ensure current remains valid if toc changes
     if (!toc.find(c => c.id === current?.id)) setCurrent(toc[0] ?? null)
-  }, [toc])
+  }, [toc, current?.id])
 
   if (!toc || toc.length === 0) {
     return (
@@ -46,7 +70,7 @@ export default function ReadingPage() {
               <li key={ch.id}>
                 <button
                   className={`toc-link ${current && current.id === ch.id ? 'active' : ''}`}
-                  onClick={() => setCurrent(ch)}
+                  onClick={() => handleNavigation(ch)}
                   aria-pressed={current && current.id === ch.id}
                 >
                   {ch.title}
@@ -56,19 +80,30 @@ export default function ReadingPage() {
           </ul>
         </aside>
 
-        <article className="chapter" aria-live="polite">
+        <article className="chapter" aria-live="polite" ref={articleRef}>
           <h2>{current.title}</h2>
           <div className="chapter-body" dangerouslySetInnerHTML={{ __html: current.html }} />
 
           <nav className="chapter-controls" aria-label="Chapter navigation">
             <button
-              onClick={() => setCurrent(toc[Math.max(0, toc.findIndex(c => c.id === current.id) - 1)])}
+              onClick={() => handleNavigation(toc[Math.max(0, toc.findIndex(c => c.id === current.id) - 1)])}
               disabled={toc.findIndex(c => c.id === current.id) <= 0}
             >
               ← Prev
             </button>
+
+            {/* Back to top button is now always visible */}
             <button
-              onClick={() => setCurrent(toc[Math.min(toc.length - 1, toc.findIndex(c => c.id === current.id) + 1)])}
+              className="back-to-top"
+              onClick={scrollToTop}
+              aria-label="Back to top"
+              title="Back to top"
+            >
+              ↑ Top
+            </button>
+
+            <button
+              onClick={() => handleNavigation(toc[Math.min(toc.length - 1, toc.findIndex(c => c.id === current.id) + 1)])}
               disabled={toc.findIndex(c => c.id === current.id) >= toc.length - 1}
             >
               Next →
