@@ -16,14 +16,14 @@
     "wetlands": {
         "Region": "Abyssal Wetlands",
         "Capital": "Sungai City",
-        "Caverns": ["Sunken Swamp Cavern", "Silent Valley Cavern", "The Channels"],
+        "Caverns": ["Silent Valley Cavern", "The Channels", "Sunken Swamp Cavern", "Singing Marsh Cavern"],
         "Population": ["Amphibianoids", "Humanoids"],
         "Description": "A cold and wet region in the Northern parts of the Southern Caverns where colossal lakes sit, rumored to connect to the dark Deep Caverns."
     },
     "jungle": {
         "Region": "Temporal Jungle",
         "Capital": "Lahos Town",
-        "Caverns": ["Crysilis Cavern", "Million Mirror Cavern", "Temple of the Lawa"],
+        "Caverns": ["Rainbow Falls Cavern", "Jade Garden", "Temple of the Lawa", "Crysilis Cavern", "Million Mirror Cavern"],
         "Population": ["Humanoids"],
         "Description": "A lushous and vibrant region filled with exotic plants and wildlife, where time seems to move differently and caverns are covered in reflective crystals."
     },
