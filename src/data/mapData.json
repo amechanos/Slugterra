@@ -24,7 +24,7 @@
         "Region": "Temporal Jungle",
         "Capital": "Lahos Town",
         "Caverns": ["Crysilis Cavern", "Million Mirror Cavern", "Temple of the Lawa"],
-        "Population": ["Humanoids"],
+        "Population": ["Humanoids", "Trolls"],
         "Description": "A lushous and vibrant region filled with exotic plants and wildlife, where time seems to move differently and caverns are covered in reflective crystals."
     },
     "icelands": {
