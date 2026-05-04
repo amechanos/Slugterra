@@ -292,5 +292,12 @@
     "Element": "Earth",
     "Ghoul Form": "Stunaroo",
     "Description": "A kangaroo like slug, secondary to a Speedstinger, able to ricochet and bounce faster but is rarer."
+  },
+  {
+    "Name": "Dreamiese",
+    "Original?": "No":,
+    "Element": "Psychic",
+    "Ghoul Form": "Traumiese",
+    "Description": "A deadly slug that can send targets into a long, deep sleep."
   }
 ]
