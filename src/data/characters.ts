@@ -9,7 +9,7 @@ export const characters = [
     {
         name: "Nash Wallace",
         age: 18,
-        slugs: ["Speedstinger", "Stunaroo", "Ramstone", "Flaringo"],
+        slugs: ["Speedstinger", "Stunaroo", "Ramstone", "Dreamiese"],
         description: "Hailing from the Western Ridgeland, Nash is a skilled slug sniper known for his competitive spirit. He has a Speedstinger named Crash and is the fastest slug sniper in the region.",
         image: "Nash.svg"
     },

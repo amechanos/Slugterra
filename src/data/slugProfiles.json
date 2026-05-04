@@ -11,7 +11,7 @@
     "Original?": "No",
     "Element": "Earth",
     "Ghoul Form": "Necracent",
-    "Description": "A slug that can copy the abilities of other slugs by reflecting their powers off its crystalline body."
+    "Description": "A slug that reflect or adjust the trajectory of any projectile or attack."
   },
   {
     "Name": "Makobreaker",
@@ -40,13 +40,6 @@
     "Element": "Nature",
     "Ghoul Form": "Chlorofight",
     "Description": "A plant slug that can shoot razor sharp leaves from its body with deadly accuracy."
-  },
-  {
-    "Name": "Desertooth",
-    "Original?": "No",
-    "Element": "Water",
-    "Ghoul Form": "Savortooth",
-    "Description": "A slug that extracts water from the ground with its tail and expels it through its teeth at high pressure."
   },
   {
     "Name": "Mantarid",
@@ -291,7 +284,7 @@
     "Original?": "No",
     "Element": "Water",
     "Ghoul Form": "Megagator",
-    "Description": "A slug similar to a Makobreaker, with further abilities to turn its body and projectiles invisible."
+    "Description": "A sly alligator like slug that can hide its body in any body of liquid."
   },
   {
     "Name": "Fungaroo",
@@ -299,5 +292,12 @@
     "Element": "Earth",
     "Ghoul Form": "Stunaroo",
     "Description": "A kangaroo like slug, secondary to a Speedstinger, able to ricochet and bounce faster but is rarer."
+  },
+  {
+    "Name": "Dreamiese",
+    "Original?": "No",
+    "Element": "Psychic",
+    "Ghoul Form": "Traumiese",
+    "Description": "A deadly slug that can send targets into a long, deep sleep."
   }
 ]
