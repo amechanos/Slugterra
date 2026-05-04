@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/footer.css';
-import { FaGithub, FaBriefcase, FaDiscord, FaInstagram, FaLinkedin, FaYoutube } from 'react-icons/fa';
+import { FaGithub, FaDiscord, FaInstagram, FaYoutube } from 'react-icons/fa';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();

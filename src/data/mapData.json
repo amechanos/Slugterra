@@ -2,7 +2,7 @@
     "desert": {
         "Region": "Drunken Desert",
         "Capital": "Steamvale",
-        "Caverns": ["The Ducts", "Bomb Flats", "Vein Rocks", "Clinkton", "Tumblestone Cavern"],
+        "Caverns": ["Mercury's Bend", "The Ducts", "Bomb Flats", "Vein Rocks", "Clinkton", "Tumblestone Cavern"],
         "Population": ["Trolls", "Humanoids"],
         "Description": "An almost dystopian like wasteland with miles of mostly nothing but sand, where towns adopt steampunk like architecture that seems to burrow deep underground."
     },
@@ -23,7 +23,7 @@
     "jungle": {
         "Region": "Temporal Jungle",
         "Capital": "Lahos Town",
-        "Caverns": ["Crysilis Cavern", "Million Mirror Cavern", "Temple of the Lawa"],
+        "Caverns": ["Rainbow Falls Cavern", "Jade Garden", "Temple of the Lawa", "Crysilis Cavern", "Million Mirror Cavern"],
         "Population": ["Humanoids", "Trolls"],
         "Description": "A lushous and vibrant region filled with exotic plants and wildlife, where time seems to move differently and caverns are covered in reflective crystals."
     },
