@@ -45,13 +45,21 @@
     gap: 0.5rem;
 }
 
-.slug {
+button.slug {
     font-size: smaller;
     background: beige;
     color: darkslategrey;
     padding: 0.25rem 0.5rem;
     gap: 1rem;
     border-radius: 999px;
+    transition: all 0.15s ease;
+}
+
+button.slug:hover {
+    background: rgba(189, 189, 170, 0.9);
+    color: darkslategrey;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(30,24,18,0.3);
 }
 
 .MC-card > img {

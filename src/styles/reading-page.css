@@ -32,6 +32,8 @@
 
 .toc ul { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.35rem; }
 
+.toc-mobile { display: none; }
+
 .toc-link {
   display: block;
   background: transparent;
@@ -66,4 +68,50 @@
 @media (max-width: 900px) {
   .reader-grid { grid-template-columns: 1fr; }
   .toc { border-right: none; padding-right: 0; padding-bottom: 1rem; }
+}
+
+@media (max-width: 600px) {
+  .toc ul {
+    display: none;
+  }
+  .toc-mobile {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: center;
+  }
+  .toc-mobile button {
+    padding: 0.5rem;
+    border: 1px solid rgba(255,255,255,0.06);
+    background: transparent;
+    color: inherit;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 160ms ease;
+  }
+  .toc-mobile button:hover:not(:disabled),
+  .toc-mobile button:focus-visible:not(:disabled) {
+    background: rgba(255,255,255,0.02);
+  }
+  .toc-mobile button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  .toc-mobile select {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid rgba(255,255,255,0.06);
+    background: #242424;
+    color: rgba(255, 255, 255, 0.87);
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  .toc-mobile select option {
+    background: #242424;
+    color: rgba(255, 255, 255, 0.87);
+  }
+  .toc-mobile select:focus {
+    outline: 2px solid var(--btn-active-bg, #ea9c50);
+    outline-offset: 2px;
+  }
 }

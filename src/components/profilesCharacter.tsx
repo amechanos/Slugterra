@@ -3,6 +3,11 @@ import { characters } from "../data/characters";
 import ProfileCard from './profiles';
 import '../styles/characters.css';
 
+type CharacterListProps = {
+    setView: (view: string) => void;
+    setSelectedSlugId: (slugId: string | null) => void;
+};
+
 const useIsMobile = (breakpoint: number) => {
     const [isMobile, setIsMobile] = useState(false);
 
@@ -23,7 +28,7 @@ const useIsMobile = (breakpoint: number) => {
     return isMobile;
 };
 
-export default function CharacterList() {
+export default function CharacterList({ setView, setSelectedSlugId }: CharacterListProps) {
     const [index, setIndex] = useState(0);
     const [touchStart, setTouchStart] = useState<number | null>(null);
     const [touchEnd, setTouchEnd] = useState<number | null>(null);
@@ -31,6 +36,15 @@ export default function CharacterList() {
     const isMobile = useIsMobile(930);
     const minSwipeDistance = 50;
     const p = characters[index];
+
+    const normalizeSlugId = (slug: string) => slug.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+
+    const handleSlugClick = (slug: string) => {
+        const slugId = normalizeSlugId(slug)
+        setSelectedSlugId(slugId)
+        setView('gallery')
+        window.location.hash = slugId
+    }
 
     // Navigation Helper (wraps around when reaching ends)
     const handleMove = (direction: number) => {
@@ -84,6 +98,7 @@ export default function CharacterList() {
                             description={p.description} 
                             slugs={p.slugs} 
                             image={new URL(`../assets/${p.image}`, import.meta.url).href} 
+                            onSlugClick={handleSlugClick}
                         />
                     </div>
                     <div className="index-dots" role="tablist" aria-label="Character pages">
@@ -108,6 +123,7 @@ export default function CharacterList() {
                             description={char.description} 
                             slugs={char.slugs} 
                             image={new URL(`../assets/${char.image}`, import.meta.url).href} 
+                            onSlugClick={handleSlugClick}
                         />
                     ))}
                 </div>

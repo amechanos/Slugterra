@@ -44,6 +44,20 @@ export default function ReadingPage() {
     setCurrent(chapter)
   }
 
+  const prevChapter = () => {
+    const currentIndex = toc.findIndex(c => c.id === current.id)
+    if (currentIndex > 0) {
+      setCurrent(toc[currentIndex - 1])
+    }
+  }
+
+  const nextChapter = () => {
+    const currentIndex = toc.findIndex(c => c.id === current.id)
+    if (currentIndex < toc.length - 1) {
+      setCurrent(toc[currentIndex + 1])
+    }
+  }
+
   useEffect(() => {
     // ensure current remains valid if toc changes
     if (!toc.find(c => c.id === current?.id)) setCurrent(toc[0] ?? null)
@@ -78,6 +92,33 @@ export default function ReadingPage() {
               </li>
             ))}
           </ul>
+          <div className="toc-mobile">
+            <button
+              onClick={prevChapter}
+              disabled={toc.findIndex(c => c.id === current.id) <= 0}
+              aria-label="Previous chapter"
+            >
+              ‹
+            </button>
+            <select
+              value={current.id}
+              onChange={(e) => handleNavigation(toc.find(c => c.id === e.target.value))}
+              aria-label="Select chapter"
+            >
+              {toc.map(ch => (
+                <option key={ch.id} value={ch.id}>
+                  {ch.title}
+                </option>
+              ))}
+            </select>
+            <button
+              onClick={nextChapter}
+              disabled={toc.findIndex(c => c.id === current.id) >= toc.length - 1}
+              aria-label="Next chapter"
+            >
+              ›
+            </button>
+          </div>
         </aside>
 
         <article className="chapter" aria-live="polite" ref={articleRef}>

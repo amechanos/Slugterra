@@ -67,75 +67,6 @@ footer {
     color: #e6e6eb;
 }
 
-/* Newsletter Signup */
-.newsletter-signup {
-  text-align: center;
-  margin-bottom: 1rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.newsletter-signup h3 {
-  font-size: 1.2rem;
-  margin: 0 0 0.5rem 0;
-  color: #ea9c50;
-}
-
-.newsletter-signup p {
-  font-size: 0.9rem;
-  margin: 0 0 1rem 0;
-  opacity: 0.9;
-}
-
-.newsletter-form {
-  display: flex;
-  justify-content: center;
-  gap: 0.5rem;
-  flex-wrap: wrap;
-}
-
-.newsletter-input {
-  padding: 0.5rem;
-  border: 1px solid #555;
-  border-radius: 4px;
-  background: rgba(255, 255, 255, 0.1);
-  color: #e6e6eb;
-  font-size: 0.9rem;
-  min-width: 200px;
-}
-
-.newsletter-input::placeholder {
-  color: #aaa;
-}
-
-.newsletter-button {
-  padding: 0.5rem 1rem;
-  background: #ea9c50;
-  color: #000;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 0.9rem;
-  transition: background 0.2s;
-}
-
-.newsletter-button:hover:not(:disabled) {
-  background: #d48a40;
-}
-
-.newsletter-button:disabled {
-  opacity: 0.6;
-  cursor: not-allowed;
-}
-
-.newsletter-message {
-  font-size: 0.8rem;
-  margin-top: 0.5rem;
-  color: #ea9c50;
-}
-
 /* Responsive tweak */
 @media (max-width: 480px) {
   .footer-links {
@@ -148,14 +79,5 @@ footer {
 
   .footer-divider {
     width: 85%;
-  }
-
-  .newsletter-form {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .newsletter-input {
-    min-width: 180px;
   }
 }

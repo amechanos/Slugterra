@@ -145,6 +145,14 @@
     box-shadow: 1px 6px 6px rgba(30,24,18,0.6);
 }
 
+.slug-card.selected,
+.slug-card:target {
+    outline: none;
+    border-color: #ea9c50;
+    background: linear-gradient(60deg, rgba(234, 156, 80, 0.18), rgba(65, 40, 40, 0.28));
+    transform: translateY(-3px) scale(1.01);
+}
+
 .slug-card:focus {
     outline: 3px solid var(--btn-active-bg, #ea9c50);
     outline-offset: 2px;
@@ -154,8 +162,6 @@
 /* Respect user preference for reduced motion */
 @media (prefers-reduced-motion: reduce) {
     :root { --transition-duration: 0ms; }
-    .gallery-controls button,
-    .slug-card { transition: none !important; }
 }
 
 /* Small helper for better stacking on small screens */

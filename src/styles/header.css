@@ -40,7 +40,7 @@
   cursor: pointer;
   position: relative;
   text-decoration: none;
-  transition: color var(--transition-duration, 180ms) var(--transition-ease);
+  transition: all 1s var(--transition-ease);
 }
 
 .nav-controls button::after {
@@ -51,12 +51,13 @@
   bottom: -4px;
   height: 2px;
   background: currentColor;
-  transition: right var(--transition-duration, 180ms) var(--transition-ease);
+  transition: all 1s var(--transition-ease);
 }
 
 .nav-controls button:hover,
 .nav-controls button:focus-visible {
-  color: var(#bba98b);
+  color: #ea9c50;
+  transform: translateX(-2px);
 }
 
 .nav-controls button:hover::after,

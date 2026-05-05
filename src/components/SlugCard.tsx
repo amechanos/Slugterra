@@ -10,12 +10,13 @@ type Slug = {
   "Description": string
 }
 
-export default function SlugCard({ slug }: { slug: Slug }) {
+export default function SlugCard({ slug, selected = false, onInteract }: { slug: Slug, selected?: boolean, onInteract?: () => void }) {
   const isOriginal = String(slug['Original?']).toLowerCase() === 'yes'
   const wikiUrl = `${link}${encodeURIComponent(slug.Name)}`
+  const slugId = slug.Name.toLowerCase().replace(/[^a-z0-9]+/g, '-')
 
   return (
-    <article className="slug-card">
+    <article id={slugId} className={`slug-card${selected ? ' selected' : ''}`} onClick={onInteract}>
       <div className="slug-card-body">
         {isOriginal ? (
           <a href={wikiUrl} target="_blank" rel="noopener noreferrer" className="slugContainer">

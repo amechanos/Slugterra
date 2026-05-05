@@ -24,7 +24,6 @@ function InteractiveMap() {
 
     return (
         <section>
-            <h1> Map of the Southern Caverns </h1>
             <div className="mapContainer">
                 <svg viewBox="0 0 1920 1080" className="main-map">
                     <path 
