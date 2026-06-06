@@ -42,18 +42,18 @@
     "Description": "A plant slug that can shoot razor sharp leaves from its body with deadly accuracy."
   },
   {
-    "Name": "Mantarid",
-    "Original?": "No",
-    "Element": "Earth",
-    "Ghoul Form": "Manteraid",
-    "Description": "A manta ray type slug that can phase through solid objects, such as the ground and walls."
-  },
-  {
     "Name": "Gyrophyll",
     "Original?": "No",
     "Element": "Nature",
     "Ghoul Form": "Pyrokill",
     "Description": "A spinning slug that can charge up and release its speed or wind from its body."
+  },
+  {
+    "Name": "Enigmo",
+    "Original?": "Yes",
+    "Element": "Light",
+    "Ghoul Form": "Enigblind",
+    "Description": "A mysterious slug with unknown abilities and a penchant for solving puzzles."
   },
   {
     "Name": "Chasm",

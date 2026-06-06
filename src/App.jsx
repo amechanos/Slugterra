@@ -20,7 +20,7 @@ function App() {
         {view === 'home' && <Home setView={setView} />}
         {view === 'gallery' && <SlugGallery selectedSlugId={selectedSlugId} onClearSelectedSlug={clearSelectedSlugId} />}
         {view === 'reading' && <ReadingPage />}
-        {view === 'map' && <MapPage />}
+        {view === 'map' && <MapPage setView={setView} setSelectedSlugId={setSelectedSlugId} />}
         {view === 'characters' && <CharacterList setView={setView} setSelectedSlugId={setSelectedSlugId} />}
       </main>
       <Footer/>
