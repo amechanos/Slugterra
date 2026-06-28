@@ -31,16 +31,17 @@
 }
 
 .nav-controls button {
-  margin: 0;
-  padding: 0.15rem 0.25rem;
-  border: none;
-  background: transparent;
-  color: var(--btn-active-bg, #ea9c50);
-  font-weight: 500;
-  cursor: pointer;
-  position: relative;
-  text-decoration: none;
-  transition: all 1s var(--transition-ease);
+    margin: 0;
+    padding: 0.15rem 0.25rem;
+    border: none;
+    background: transparent;
+    color: var(--btn-active-bg, #ea9c50);
+    font-size: 1.2rem;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    transition: all 1s var(--transition-ease);
+    font-family: 'Caesar Dressing';
 }
 
 .nav-controls button::after {

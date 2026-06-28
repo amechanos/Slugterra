@@ -46,6 +46,7 @@ footer {
 
 /* Bottom content */
 .footer-content {
+  font-family: 'Saira', system-ui;
   text-align: center;
   font-size: 0.9rem;
   display: flex;

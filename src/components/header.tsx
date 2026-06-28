@@ -9,7 +9,7 @@ export default function Header({ view, setView }: { view: 'home' | 'characters' 
         <div className="site-logo" role="img" aria-label="Slugterra Woto logo"><a href="/"><img src={logoUrl} alt="Logo" id="logo"/></a></div>
 
         <nav className="nav-controls" aria-label="Main navigation">
-          <button onClick={() => setView('characters')} aria-pressed={view === 'reading'}>Characters</button>
+          <button onClick={() => setView('characters')} aria-pressed={view === 'characters'}>Characters</button>
           <button onClick={() => setView('reading')} aria-pressed={view === 'reading'}>Reading</button>
           <button onClick={() => setView('gallery')} aria-pressed={view === 'gallery'}>Gallery</button>
           <button onClick={() => setView('map')} aria-pressed={view === 'map'}>Map</button>

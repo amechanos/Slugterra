@@ -78,7 +78,8 @@ export default function ReadingPage() {
     <section id="reading-page" className="reading-page">
       <div className="reading-inner reader-grid">
         <aside className="toc" aria-label="Table of contents">
-          <h3>Contents</h3>
+          <h3 style={{ marginBottom: '1rem' }}>Contents</h3>
+          <div className="divider"></div>
           <ul>
             {toc.map(ch => (
               <li key={ch.id}>
