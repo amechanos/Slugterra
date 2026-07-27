@@ -1,4 +1,4 @@
-Inside the Crux
+### Inside the Crux
 “Woah, so Nash, this is your home?” Salem asked, dazzled at the bizarre view. The group stood at the mouth of a cave that seeped into the true Ridgelands, a true spectacle of rolling hills and fractured landscapes. Towers of canyons and fractured mountains soared overhead from the cavern they stood from, carved low into a deep canyon wall.
 
 In all directions, Iris could only see ravines branching from the canyon, a rather supernatural view to say the least. Greens and earthy tones lined the rocks, while blues spread beneath each archaic layer like blood veins, almost as if the Ridgelands was alive. Iris honestly couldn't believe her eyes. The air was electric, the ground was static and every step she took, it felt like the earth was breathing. 
