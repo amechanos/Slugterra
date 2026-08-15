@@ -32,16 +32,16 @@
 
 /* Global Styles */
 
-h1, h2, button {
+h1 {
     font-family: 'Caesar Dressing', system-ui;
     font-weight: normal;
 }
 
-h3, h4, h5, h6 {
-    font-family: 'Caesar Dressing', system-ui;
+h2, button, h3, h4, h5, h6 {
+    font-family: 'Saira', system-ui;
     margin: 0;
     font-size: 1.33rem; 
-    font-weight: normal;
+    font-weight: 650;
 }
 
 footer, a, li, p {

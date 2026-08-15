@@ -25,7 +25,7 @@ export default function MapPage({ setView, setSelectedSlugId }: MapPageProps) {
   return (
     <section className="map-page">
       <div className="map-page-inner">
-        <h2 style={{ textAlign: 'center' }}>World Map</h2>
+        <h1 style={{ marginTop: '1rem', textAlign: 'center' }}>World Map</h1>
         <InteractiveMap onCavernSelect={setSelectedCavernFromMap} />
         <CavernSearch
           selectedCavernOverride={selectedCavernFromMap}
