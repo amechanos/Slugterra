@@ -299,5 +299,12 @@
     "Element": "Psychic",
     "Ghoul Form": "Traumiese",
     "Description": "A deadly slug that can send targets into a long, deep sleep."
+  },
+  {
+    "Name": "Vitanin",
+    "Original?": "No",
+    "Element": "Psychic",
+    "Ghoul Form": "Heronin",
+    "Description": "A rare healer slug that attaches to a target and heals them over time."
   }
 ]
