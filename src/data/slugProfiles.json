@@ -331,8 +331,15 @@
   {
     "Name": "Blastipede",
     "Original?": "Yes",
-    "Element": "Fire",
+    "Element": "Earth",
     "Ghoul Form": "Disatiped",
     "Description": "A slug that can throw explosive mines that can be detonated remotely or on impact, causing a large explosion."
+  },
+  {
+    "Name": "Bubbaleone",
+    "Original?": "Yes",
+    "Element": "Water",
+    "Ghoul Form": "Bubbalash",
+    "Description": "A slug that can transform into a bubble, reflecting or absorbing attacks, and can also be used to trap enemies."
   }
 ]

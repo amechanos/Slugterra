@@ -1,6 +1,6 @@
 export const mapData = {
     "wetlands": {
-        "Jreuean": {"description": "A humid stretch of slums that houses most Wetlanders and their unique culture.", "slugs": ["???"]},
+        "Jreuean": {"description": "A humid stretch of slums that houses most Wetlanders and their unique culture.", "slugs": ["Jellyish", "Flopper", "Aquabeak", "Bubbaleone"]},
         "Marish Vents": {"description": "The deepest array of swamps that stretch to the Deep Caverns, highly advised to avoid, housing the monster Bakunawa.", "slugs": ["Uninhabitable"]},
         "Sunken Swamp Cavern": {"description": "A honeycomb area of densely packed swamps that vary in depth, home to the demonic Bunyip.", "slugs": ["Jellyish", "Flopper", "Aquabeak", "Blastipede"]},
         "Singing Marsh Cavern": {"description": "A mist-covered cavern home to lungfish, as well as the legendary beast Tiddalik", "slugs": ["Frightgiest", "Thresher", "Hypnogrif"]},
