@@ -273,11 +273,11 @@
     "Description": "An underlooked slug asit lacks any ability, making it almost useless."
   },
   {
-    "Name": "Kinderling",
-    "Original?": "No",
+    "Name": "Fandango",
+    "Original?": "Yes",
     "Element": "Chaos",
-    "Ghoul Form": "Witherling",
-    "Description": "A murderous slug that can evaporate liquids in seconds upon contact."
+    "Ghoul Form": "Vamparo",
+    "Description": "An energy slug that can amplify, intensify or boost the powers or abilities on lifeforms."
   },
   {
     "Name": "Mesagator",
@@ -306,5 +306,33 @@
     "Element": "Psychic",
     "Ghoul Form": "Heronin",
     "Description": "A rare healer slug that attaches to a target and heals them over time."
+  },
+  {
+    "Name": "Jellyish",
+    "Original?": "Yes",
+    "Element": "Water",
+    "Ghoul Form": "Jollyfist",
+    "Description": "A slimely slug characterised by its use of its slimely goo to stick to surfaces or to bind enemies."
+  },
+  {
+    "Name": "Frightgiest",
+    "Original?": "Yes",
+    "Element": "Psychic",
+    "Ghoul Form": "Nightgeist",
+    "Description": "A ghostly slug that can scare and frighten its target, causing them to flee in terror."
+  },
+  {
+    "Name": "Hypnogrif",
+    "Original?": "Yes",
+    "Element": "Psychic",
+    "Ghoul Form": "Cryptogrif",
+    "Description": "A slug that can hypnotize or control the emotions of its targets."
+  },
+  {
+    "Name": "Blastipede",
+    "Original?": "Yes",
+    "Element": "Fire",
+    "Ghoul Form": "Disatiped",
+    "Description": "A slug that can throw explosive mines that can be detonated remotely or on impact, causing a large explosion."
   }
 ]

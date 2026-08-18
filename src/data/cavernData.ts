@@ -1,11 +1,11 @@
 export const mapData = {
-    // "wetlands": {
-    //     "Silent Valley Cavern": {"description": "???", "slugs": ["???"]},
-    //     "The Channels": {"description": "???", "slugs": ["???"]},
-    //     "Sunken Swamp Cavern": {"description": "???", "slugs": ["???"]},
-    //     "Singing Marsh Cavern": {"description": "???", "slugs": ["???"]},
-    //     "Sungai City": {"description": "???", "slugs": ["???"]},
-    // },
+    "wetlands": {
+        "Jreuean": {"description": "A humid stretch of slums that houses most Wetlanders and their unique culture.", "slugs": ["???"]},
+        "Marish Vents": {"description": "The deepest array of swamps that stretch to the Deep Caverns, highly advised to avoid, housing the monster Bakunawa.", "slugs": ["Uninhabitable"]},
+        "Sunken Swamp Cavern": {"description": "A honeycomb area of densely packed swamps that vary in depth, home to the demonic Bunyip.", "slugs": ["Jellyish", "Flopper", "Aquabeak", "Blastipede"]},
+        "Singing Marsh Cavern": {"description": "A mist-covered cavern home to lungfish, as well as the legendary beast Tiddalik", "slugs": ["Frightgiest", "Thresher", "Hypnogrif"]},
+        "Sungai City": {"description": "The central hub of the Wetlands, an oddly developed city built around a network of interconnected waterways, housing the Grand Shrine.", "slugs": ["Aquabeak", "Tenasher", "Mesagator", "Blastipede", "Jellyish", "Flopper"]},
+    },
     // "icelands": {
     //     "Unknown": {"description": "???", "slugs": ["???"]},
     // },

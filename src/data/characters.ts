@@ -2,7 +2,7 @@ export const characters = [
     {
         name: "Iris Kura",
         age: 17,
-        slugs: ["Hoverbug", "Armashelt", "Makobreaker"],
+        slugs: ["Hoverbug", "Armashelt", "Makobreaker", "Taranticle"],
         description: "The daughter of Greggory Kura, a renowned watcher. Iris is adventurous and curious, always trying to learn more about the mysterious Southern Caverns. She has a Hoverbug named Fin.",
         image: "Iris.svg"
     },
@@ -16,14 +16,14 @@ export const characters = [
     {
         name: "Ariane Sanders",
         age: 17,
-        slugs: ["Aquabeak", "Refracent", "Thresher", "Glowbyss"],
+        slugs: ["Aquabeak", "Jellyish", "Thresher", "Glowbyss", "Vitanin"],
         description: "Commonly known to friends as Ria, Ariane comes from the Abyssal Wetlands, the land of the poverty-stricken. She is kind-hearted and determined, with an Aquabeak named Jet who helps her navigate the wetlands.",
         image: "Ariane.svg"
     },
     {
         name: "Yonas Haliyan",
         age: 19,
-        slugs: ["Frostcrawler", "Armashelt", "Crystalyd"],
+        slugs: ["Frostcrawler", "Armashelt", "Crystalyd", "Firenzar"],
         description: "Yonas as one of the older members is a boy with heightened endurance alongside a strengthened mind trained with disipline. Patient and precise, Yonas is chillingly dangerous with his Frostcrawler Sherbet.",
         image: "Yonas.svg"
     },
